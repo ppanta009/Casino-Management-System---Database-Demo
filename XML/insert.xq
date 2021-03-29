@@ -1,0 +1,2 @@
+declare default element namespace "www.haxd.com/casino.html";
+insert node element game {element gamename {"new game"}, element gameid {"g5"}, element userid {"d4"},element session {element datetime{"2020-08-10T18:45:10"}, element sessionid{"ss6"}, element userid {"c9"}} } into /casino

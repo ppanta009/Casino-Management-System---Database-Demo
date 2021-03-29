@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<casino:schema xmlns:casino="http://www.w3.org/2001/XMLSchema" targetNamespace="www.haxd.com/casino.html" xmlns="www.haxd.com/casino.html" elementFormDefault="qualified">
+    <casino:element name="casino">
+        <casino:complexType>
+            <casino:sequence>
+                <casino:element name="game" maxOccurs="unbounded" minOccurs="0">
+                    <casino:complexType>
+                        <casino:sequence>
+                            <casino:element type="casino:string" name="gamename"/>
+                            <casino:element type="casino:string" name="gameid"/>
+                            <casino:element type="casino:string" name="userid"/>
+                            <casino:element name="session" maxOccurs="unbounded" minOccurs="0">
+                                <casino:complexType>
+                                    <casino:sequence>
+                                        <casino:element type="casino:dateTime" name="datetime"/>
+                                        <casino:element type="casino:string" name="sessionid"/>
+                                        <casino:element type="casino:string" name="userid"/>
+                                    </casino:sequence>
+                                </casino:complexType>
+                            </casino:element>
+                        </casino:sequence>
+                    </casino:complexType>
+                </casino:element>
+            </casino:sequence>
+        </casino:complexType>
+    </casino:element>
+</casino:schema>

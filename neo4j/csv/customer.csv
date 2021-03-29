@@ -1,0 +1,6 @@
+userid,fullname,email,dob,discipline_status,membership
+c1,Nathan Smith,c1@gamil.com,1/01/1995,normal,bronze
+c2,James Wang,c2@gamil.com,2/01/1995,third warning,bronze
+c3,Jeff Evans,c3@gamil.com,2/01/1996,second warning,diamond
+c4,Chirs Bennet,c4@gamil.com,2/01/1996,first warning,gold
+c5,Matt Jones,c5@gamil.com,2/05/1995,third warning,gold
